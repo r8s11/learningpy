@@ -1,0 +1,1 @@
+# This is a folder for the tutorial "Polling App" from the official Django website.
