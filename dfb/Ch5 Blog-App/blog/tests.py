@@ -49,3 +49,5 @@ class BlogTests(TestCase):
             },
         )
         self.assertEqual(response.status_code, 302)
+        self.assertEqual(Post.objects.last().title, "New title")
+        
